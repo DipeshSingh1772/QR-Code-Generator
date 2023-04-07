@@ -1,0 +1,35 @@
+.navbar_main{
+    width: auto;
+    height: 7vh;
+    background-color: rgb(28, 28, 28);
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+}
+
+.navbar_logo{
+    padding-top: 25px;
+    padding-left: 20px;
+    height: 100%;
+    flex: 1 1;
+}
+
+.navbar_links{
+    padding-top: 25px;
+    padding-right: 20px;
+    height: 100%;
+}
+
+a:link, a:visited{
+    text-decoration: none;
+    color: white;
+
+}
+
+.link{
+    display: block;
+    height: 100%;
+    text-decoration: none;
+}
